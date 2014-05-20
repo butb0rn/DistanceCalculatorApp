@@ -25,18 +25,18 @@
 
 - (IBAction)clearMiles:(id)sender {
     [self clearTexts];
+    [self.inputMiles resignFirstResponder];
 }
 
 - (IBAction)convertMilesToKilometers:(id)sender {
-    if ([self isMileEntered:self.inputMiles.text]) {
+    [self.inputMiles resignFirstResponder];
+    if ([self isMileNotEntered:self.inputMiles.text]) {
         [self clearTexts];
         return;
     }
-    
-    double miles = [[self.inputMiles text] doubleValue];
-    double kilometers = miles * 1.60934;
     [self.resultInKilometers setText:[NSString
-                                      stringWithFormat:@"Distance in Kilometeres is: %f", kilometers]];
+                                      stringWithFormat:@"Distance in Kilometeres is: %f",
+                                      [self milesToKilometers:self.inputMiles.text]]];
 }
 
 - (void)clearTexts {
@@ -44,10 +44,15 @@
     [self.resultInKilometers setText: @""];
 }
 
-- (BOOL)isMileEntered:(NSString*)mileText {
+- (BOOL)isMileNotEntered:(NSString*)mileText {
     NSScanner* scanner = [NSScanner scannerWithString:mileText];
     BOOL isNumeric = [scanner scanDouble:NULL] && [scanner isAtEnd];
     return !isNumeric || [mileText isEqual:@""] || mileText == nil;
+}
+
+-(double)milesToKilometers:(NSString*)miles {
+    double milesDoubleValue = [miles doubleValue];
+    return milesDoubleValue * 1.60934;
 }
 
 @end
