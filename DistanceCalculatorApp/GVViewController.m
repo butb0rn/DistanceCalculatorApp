@@ -28,10 +28,11 @@
 }
 
 - (IBAction)convertMilesToKilometers:(id)sender {
-    if ([self.inputMiles.text isEqual:@""] || self.inputMiles.text == nil) {
+    if ([self isMileEmpty:self.inputMiles.text]) {
         [self clearTexts];
         return;
     }
+    
     double miles = [[self.inputMiles text] doubleValue];
     double kilometers = miles * 1.60934;
     [self.resultInKilometers setText:[NSString
@@ -41,6 +42,10 @@
 - (void)clearTexts {
     [self.inputMiles setText: @""];
     [self.resultInKilometers setText: @""];
+}
+
+- (BOOL)isMileEmpty:(NSString*)mileText {
+    return [mileText isEqual:@""] || mileText == nil;
 }
 
 @end
