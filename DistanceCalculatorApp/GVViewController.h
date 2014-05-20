@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface GVViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *inputMiles;
+@property (weak, nonatomic) IBOutlet UIButton *convertToKilometers;
+@property (weak, nonatomic) IBOutlet UIButton *clearButton;
 
 @end
