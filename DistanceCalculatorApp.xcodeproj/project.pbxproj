@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F97C4B5192BCBF300D28239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97C4B4192BCBF300D28239 /* Foundation.framework */; };
+		8F97C4B7192BCBF300D28239 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97C4B6192BCBF300D28239 /* CoreGraphics.framework */; };
+		8F97C4B9192BCBF300D28239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97C4B8192BCBF300D28239 /* UIKit.framework */; };
+		8F97C4BF192BCBF300D28239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F97C4BD192BCBF300D28239 /* InfoPlist.strings */; };
+		8F97C4C1192BCBF300D28239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C4C0192BCBF300D28239 /* main.m */; };
+		8F97C4C5192BCBF300D28239 /* GVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C4C4192BCBF300D28239 /* GVAppDelegate.m */; };
+		8F97C4C8192BCBF300D28239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F97C4C6192BCBF300D28239 /* Main.storyboard */; };
+		8F97C4CB192BCBF300D28239 /* GVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C4CA192BCBF300D28239 /* GVViewController.m */; };
+		8F97C4CD192BCBF300D28239 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F97C4CC192BCBF300D28239 /* Images.xcassets */; };
+		8F97C4D4192BCBF300D28239 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97C4D3192BCBF300D28239 /* XCTest.framework */; };
+		8F97C4D5192BCBF300D28239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97C4B4192BCBF300D28239 /* Foundation.framework */; };
+		8F97C4D6192BCBF300D28239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97C4B8192BCBF300D28239 /* UIKit.framework */; };
+		8F97C4DE192BCBF300D28239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F97C4DC192BCBF300D28239 /* InfoPlist.strings */; };
+		8F97C4E0192BCBF300D28239 /* DistanceCalculatorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C4DF192BCBF300D28239 /* DistanceCalculatorAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F97C4D7192BCBF300D28239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F97C4A9192BCBF300D28239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F97C4B0192BCBF300D28239;
+			remoteInfo = DistanceCalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F97C4B1192BCBF300D28239 /* DistanceCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F97C4B4192BCBF300D28239 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F97C4B6192BCBF300D28239 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F97C4B8192BCBF300D28239 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F97C4BC192BCBF300D28239 /* DistanceCalculatorApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DistanceCalculatorApp-Info.plist"; sourceTree = "<group>"; };
+		8F97C4BE192BCBF300D28239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F97C4C0192BCBF300D28239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F97C4C2192BCBF300D28239 /* DistanceCalculatorApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DistanceCalculatorApp-Prefix.pch"; sourceTree = "<group>"; };
+		8F97C4C3192BCBF300D28239 /* GVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVAppDelegate.h; sourceTree = "<group>"; };
+		8F97C4C4192BCBF300D28239 /* GVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVAppDelegate.m; sourceTree = "<group>"; };
+		8F97C4C7192BCBF300D28239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F97C4C9192BCBF300D28239 /* GVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVViewController.h; sourceTree = "<group>"; };
+		8F97C4CA192BCBF300D28239 /* GVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVViewController.m; sourceTree = "<group>"; };
+		8F97C4CC192BCBF300D28239 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F97C4D2192BCBF300D28239 /* DistanceCalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceCalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F97C4D3192BCBF300D28239 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8F97C4DB192BCBF300D28239 /* DistanceCalculatorAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DistanceCalculatorAppTests-Info.plist"; sourceTree = "<group>"; };
+		8F97C4DD192BCBF300D28239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F97C4DF192BCBF300D28239 /* DistanceCalculatorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceCalculatorAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F97C4AE192BCBF300D28239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F97C4B7192BCBF300D28239 /* CoreGraphics.framework in Frameworks */,
+				8F97C4B9192BCBF300D28239 /* UIKit.framework in Frameworks */,
+				8F97C4B5192BCBF300D28239 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F97C4CF192BCBF300D28239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F97C4D4192BCBF300D28239 /* XCTest.framework in Frameworks */,
+				8F97C4D6192BCBF300D28239 /* UIKit.framework in Frameworks */,
+				8F97C4D5192BCBF300D28239 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F97C4A8192BCBF300D28239 = {
+			isa = PBXGroup;
+			children = (
+				8F97C4BA192BCBF300D28239 /* DistanceCalculatorApp */,
+				8F97C4D9192BCBF300D28239 /* DistanceCalculatorAppTests */,
+				8F97C4B3192BCBF300D28239 /* Frameworks */,
+				8F97C4B2192BCBF300D28239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F97C4B2192BCBF300D28239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F97C4B1192BCBF300D28239 /* DistanceCalculatorApp.app */,
+				8F97C4D2192BCBF300D28239 /* DistanceCalculatorAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F97C4B3192BCBF300D28239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F97C4B4192BCBF300D28239 /* Foundation.framework */,
+				8F97C4B6192BCBF300D28239 /* CoreGraphics.framework */,
+				8F97C4B8192BCBF300D28239 /* UIKit.framework */,
+				8F97C4D3192BCBF300D28239 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F97C4BA192BCBF300D28239 /* DistanceCalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				8F97C4C3192BCBF300D28239 /* GVAppDelegate.h */,
+				8F97C4C4192BCBF300D28239 /* GVAppDelegate.m */,
+				8F97C4C6192BCBF300D28239 /* Main.storyboard */,
+				8F97C4C9192BCBF300D28239 /* GVViewController.h */,
+				8F97C4CA192BCBF300D28239 /* GVViewController.m */,
+				8F97C4CC192BCBF300D28239 /* Images.xcassets */,
+				8F97C4BB192BCBF300D28239 /* Supporting Files */,
+			);
+			path = DistanceCalculatorApp;
+			sourceTree = "<group>";
+		};
+		8F97C4BB192BCBF300D28239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F97C4BC192BCBF300D28239 /* DistanceCalculatorApp-Info.plist */,
+				8F97C4BD192BCBF300D28239 /* InfoPlist.strings */,
+				8F97C4C0192BCBF300D28239 /* main.m */,
+				8F97C4C2192BCBF300D28239 /* DistanceCalculatorApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F97C4D9192BCBF300D28239 /* DistanceCalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F97C4DF192BCBF300D28239 /* DistanceCalculatorAppTests.m */,
+				8F97C4DA192BCBF300D28239 /* Supporting Files */,
+			);
+			path = DistanceCalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		8F97C4DA192BCBF300D28239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F97C4DB192BCBF300D28239 /* DistanceCalculatorAppTests-Info.plist */,
+				8F97C4DC192BCBF300D28239 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F97C4B0192BCBF300D28239 /* DistanceCalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F97C4E3192BCBF300D28239 /* Build configuration list for PBXNativeTarget "DistanceCalculatorApp" */;
+			buildPhases = (
+				8F97C4AD192BCBF300D28239 /* Sources */,
+				8F97C4AE192BCBF300D28239 /* Frameworks */,
+				8F97C4AF192BCBF300D28239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceCalculatorApp;
+			productName = DistanceCalculatorApp;
+			productReference = 8F97C4B1192BCBF300D28239 /* DistanceCalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F97C4D1192BCBF300D28239 /* DistanceCalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F97C4E6192BCBF300D28239 /* Build configuration list for PBXNativeTarget "DistanceCalculatorAppTests" */;
+			buildPhases = (
+				8F97C4CE192BCBF300D28239 /* Sources */,
+				8F97C4CF192BCBF300D28239 /* Frameworks */,
+				8F97C4D0192BCBF300D28239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F97C4D8192BCBF300D28239 /* PBXTargetDependency */,
+			);
+			name = DistanceCalculatorAppTests;
+			productName = DistanceCalculatorAppTests;
+			productReference = 8F97C4D2192BCBF300D28239 /* DistanceCalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F97C4A9192BCBF300D28239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ehsan Valizadeh";
+				TargetAttributes = {
+					8F97C4D1192BCBF300D28239 = {
+						TestTargetID = 8F97C4B0192BCBF300D28239;
+					};
+				};
+			};
+			buildConfigurationList = 8F97C4AC192BCBF300D28239 /* Build configuration list for PBXProject "DistanceCalculatorApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F97C4A8192BCBF300D28239;
+			productRefGroup = 8F97C4B2192BCBF300D28239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F97C4B0192BCBF300D28239 /* DistanceCalculatorApp */,
+				8F97C4D1192BCBF300D28239 /* DistanceCalculatorAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F97C4AF192BCBF300D28239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F97C4CD192BCBF300D28239 /* Images.xcassets in Resources */,
+				8F97C4BF192BCBF300D28239 /* InfoPlist.strings in Resources */,
+				8F97C4C8192BCBF300D28239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F97C4D0192BCBF300D28239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F97C4DE192BCBF300D28239 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F97C4AD192BCBF300D28239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F97C4C1192BCBF300D28239 /* main.m in Sources */,
+				8F97C4CB192BCBF300D28239 /* GVViewController.m in Sources */,
+				8F97C4C5192BCBF300D28239 /* GVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F97C4CE192BCBF300D28239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F97C4E0192BCBF300D28239 /* DistanceCalculatorAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F97C4D8192BCBF300D28239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F97C4B0192BCBF300D28239 /* DistanceCalculatorApp */;
+			targetProxy = 8F97C4D7192BCBF300D28239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F97C4BD192BCBF300D28239 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F97C4BE192BCBF300D28239 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F97C4C6192BCBF300D28239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F97C4C7192BCBF300D28239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F97C4DC192BCBF300D28239 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F97C4DD192BCBF300D28239 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F97C4E1192BCBF300D28239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F97C4E2192BCBF300D28239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F97C4E4192BCBF300D28239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DistanceCalculatorApp/DistanceCalculatorApp-Prefix.pch";
+				INFOPLIST_FILE = "DistanceCalculatorApp/DistanceCalculatorApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F97C4E5192BCBF300D28239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DistanceCalculatorApp/DistanceCalculatorApp-Prefix.pch";
+				INFOPLIST_FILE = "DistanceCalculatorApp/DistanceCalculatorApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F97C4E7192BCBF300D28239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DistanceCalculatorApp.app/DistanceCalculatorApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DistanceCalculatorApp/DistanceCalculatorApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DistanceCalculatorAppTests/DistanceCalculatorAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8F97C4E8192BCBF300D28239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DistanceCalculatorApp.app/DistanceCalculatorApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DistanceCalculatorApp/DistanceCalculatorApp-Prefix.pch";
+				INFOPLIST_FILE = "DistanceCalculatorAppTests/DistanceCalculatorAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F97C4AC192BCBF300D28239 /* Build configuration list for PBXProject "DistanceCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F97C4E1192BCBF300D28239 /* Debug */,
+				8F97C4E2192BCBF300D28239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F97C4E3192BCBF300D28239 /* Build configuration list for PBXNativeTarget "DistanceCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F97C4E4192BCBF300D28239 /* Debug */,
+				8F97C4E5192BCBF300D28239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F97C4E6192BCBF300D28239 /* Build configuration list for PBXNativeTarget "DistanceCalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F97C4E7192BCBF300D28239 /* Debug */,
+				8F97C4E8192BCBF300D28239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F97C4A9192BCBF300D28239 /* Project object */;
+}
