@@ -46,7 +46,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="convertToKilometers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TVG-RY-Smh"/>
+                                    <action selector="convertMilesToKilometers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5S7-mw-EOk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance in kilometers is:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBb-s2-KYc">
@@ -60,7 +60,6 @@
                     </view>
                     <connections>
                         <outlet property="clearButton" destination="hJ7-fd-SPr" id="7ai-OM-fkl"/>
-                        <outlet property="convertToKilometers" destination="oN5-cQ-9TS" id="tQx-h1-2h1"/>
                         <outlet property="inputMiles" destination="byg-ay-21Z" id="r3P-wp-Ms0"/>
                         <outlet property="resultInKilometers" destination="wBb-s2-KYc" id="42J-L4-TU0"/>
                     </connections>

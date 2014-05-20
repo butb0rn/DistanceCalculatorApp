@@ -9,27 +9,37 @@
 #import "GVViewController.h"
 
 @interface GVViewController ()
-
 @end
 
 @implementation GVViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	self.model = [[GVModel alloc] init];
+    [self.resultInKilometers setText: @""];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)clearMiles:(id)sender {
-    [self.inputMiles setText: @""];
+    [self clearTexts];
 }
 
-- (IBAction)convertToKilometers:(id)sender {
+- (IBAction)convertMilesToKilometers:(id)sender {
+    if ([self.inputMiles.text isEqual:@""] || self.inputMiles.text == nil) {
+        [self clearTexts];
+        return;
+    }
+    double miles = [[self.inputMiles text] doubleValue];
+    double kilometers = miles * 1.60934;
+    [self.resultInKilometers setText:[NSString
+                                      stringWithFormat:@"Distance in Kilometeres is: %f", kilometers]];
 }
+
+- (void)clearTexts {
+    [self.inputMiles setText: @""];
+    [self.resultInKilometers setText: @""];
+}
+
 @end
