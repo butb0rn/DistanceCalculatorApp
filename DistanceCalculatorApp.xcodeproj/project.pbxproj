@@ -21,7 +21,6 @@
 		8F97C4D6192BCBF300D28239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97C4B8192BCBF300D28239 /* UIKit.framework */; };
 		8F97C4DE192BCBF300D28239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F97C4DC192BCBF300D28239 /* InfoPlist.strings */; };
 		8F97C4E0192BCBF300D28239 /* DistanceCalculatorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C4DF192BCBF300D28239 /* DistanceCalculatorAppTests.m */; };
-		8F97C4EE192BD1DB00D28239 /* GVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C4ED192BD1DB00D28239 /* GVModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		8F97C4DB192BCBF300D28239 /* DistanceCalculatorAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DistanceCalculatorAppTests-Info.plist"; sourceTree = "<group>"; };
 		8F97C4DD192BCBF300D28239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F97C4DF192BCBF300D28239 /* DistanceCalculatorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceCalculatorAppTests.m; sourceTree = "<group>"; };
-		8F97C4EC192BD1DB00D28239 /* GVModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVModel.h; sourceTree = "<group>"; };
-		8F97C4ED192BD1DB00D28239 /* GVModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +115,6 @@
 				8F97C4C3192BCBF300D28239 /* GVAppDelegate.h */,
 				8F97C4C4192BCBF300D28239 /* GVAppDelegate.m */,
 				8F97C4C6192BCBF300D28239 /* Main.storyboard */,
-				8F97C4EC192BD1DB00D28239 /* GVModel.h */,
-				8F97C4ED192BD1DB00D28239 /* GVModel.m */,
 				8F97C4C9192BCBF300D28239 /* GVViewController.h */,
 				8F97C4CA192BCBF300D28239 /* GVViewController.m */,
 				8F97C4CC192BCBF300D28239 /* Images.xcassets */,
@@ -257,7 +252,6 @@
 			files = (
 				8F97C4C1192BCBF300D28239 /* main.m in Sources */,
 				8F97C4CB192BCBF300D28239 /* GVViewController.m in Sources */,
-				8F97C4EE192BD1DB00D28239 /* GVModel.m in Sources */,
 				8F97C4C5192BCBF300D28239 /* GVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

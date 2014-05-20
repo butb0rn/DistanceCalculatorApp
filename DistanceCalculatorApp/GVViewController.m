@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.model = [[GVModel alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clearMiles:(id)sender {
+    [self.inputMiles setText: @""];
+}
+
+- (IBAction)convertToKilometers:(id)sender {
+}
 @end

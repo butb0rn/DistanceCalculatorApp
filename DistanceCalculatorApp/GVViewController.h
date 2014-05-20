@@ -14,5 +14,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *inputMiles;
 @property (weak, nonatomic) IBOutlet UIButton *convertToKilometers;
 @property (weak, nonatomic) IBOutlet UIButton *clearButton;
+@property (weak, nonatomic) IBOutlet UILabel *resultInKilometers;
+- (IBAction)clearMiles:(id)sender;
+- (IBAction)convertToKilometers:(id)sender;
 
 @end
