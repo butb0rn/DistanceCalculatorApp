@@ -28,7 +28,7 @@
 }
 
 - (IBAction)convertMilesToKilometers:(id)sender {
-    if ([self isMileEmpty:self.inputMiles.text]) {
+    if ([self isMileEntered:self.inputMiles.text]) {
         [self clearTexts];
         return;
     }
@@ -44,8 +44,10 @@
     [self.resultInKilometers setText: @""];
 }
 
-- (BOOL)isMileEmpty:(NSString*)mileText {
-    return [mileText isEqual:@""] || mileText == nil;
+- (BOOL)isMileEntered:(NSString*)mileText {
+    NSScanner* scanner = [NSScanner scannerWithString:mileText];
+    BOOL isNumeric = [scanner scanDouble:NULL] && [scanner isAtEnd];
+    return !isNumeric || [mileText isEqual:@""] || mileText == nil;
 }
 
 @end
