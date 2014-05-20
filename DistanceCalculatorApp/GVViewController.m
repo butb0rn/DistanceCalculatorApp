@@ -16,6 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.resultInKilometers setText: @""];
+    self.inputMiles.clearButtonMode = UITextFieldViewModeWhileEditing; // add clear button;
 }
 
 - (void)didReceiveMemoryWarning {
